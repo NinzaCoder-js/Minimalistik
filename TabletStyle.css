@@ -1,0 +1,46 @@
+@media (max-width: 960px) {
+   .container {
+    max-width: 960px;
+   }
+
+   .pics img{
+     max-width: 427px;
+     max-height: 391px;
+   }
+   .navbarr {
+    gap: 500px;
+  }
+
+  .container > a {
+    margin-left: 300px;
+  }
+
+  .pics {
+    justify-content: space-between;
+  }
+
+  /* well section  started */
+
+  .well-doing {
+    width: 884px;
+    height: 480.5px;
+  padding: 64px 112px;
+
+  }
+
+  .yogaa  {
+    display: none;
+  }
+
+  .folboks img {
+    margin-left: 80px;
+  }
+
+  .fresh-img {
+    width: 429.5px;
+height: 578px;
+flex-shrink: 0;
+  }
+
+
+}

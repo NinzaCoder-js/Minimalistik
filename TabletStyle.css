@@ -1,17 +1,18 @@
 @media (max-width: 960px) {
-   .container {
+  .container {
     max-width: 960px;
-   }
+  }
 
-   .pics img{
-     max-width: 427px;
-     max-height: 391px;
-   }
-   .navbarr {
+  .pics img {
+    max-width: 427px;
+    max-height: 391px;
+  }
+
+  .navbarr {
     gap: 500px;
   }
 
-  .container > a {
+  .container>a {
     margin-left: 300px;
   }
 
@@ -24,10 +25,10 @@
   .well-doing {
     width: 884px;
     height: 480.5px;
-  padding: 64px 112px;
+    padding: 64px 112px;
   }
 
-  .yogaa  {
+  .yogaa {
     display: none;
   }
 
@@ -40,7 +41,7 @@
   }
 
   .well-doing {
-  margin-left: 0px;
+    margin-left: 0px;
   }
 
   .fresh-img {
@@ -65,6 +66,7 @@
 
   .leavv {
     margin-left: 70px;
+    padding: 0px 0px;
   }
 
 

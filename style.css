@@ -53,7 +53,8 @@
   font-size: 21.33px;
   font-style: normal;
   font-weight: 600;
-  line-height: 24px; /* 112.518% */
+  line-height: 24px;
+  /* 112.518% */
 }
 
 .pics {
@@ -78,7 +79,8 @@
   font-size: 50.52px;
   font-style: normal;
   font-weight: 600;
-  line-height: 62px; /* 122.724% */
+  line-height: 62px;
+  /* 122.724% */
   margin-top: 80px;
 }
 
@@ -130,18 +132,17 @@
   font-size: 50.52px;
   font-style: normal;
   font-weight: 600;
-  line-height: 62px; /* 122.724% */
+  line-height: 62px;
+  /* 122.724% */
 }
 .fresh-box p {
   color: var(--text-text-secondary, #2B2B2B);
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px; /* 150% */
+  line-height: 24px;
+  /* 150% */
 }
-
-
-
 
 .eat {
   margin-top: 80px;
@@ -159,18 +160,22 @@
   font-size: 50.52px;
   font-style: normal;
   font-weight: 600;
-  line-height: 30px; /* 59.382% */
+  line-height: 30px;
+  /* 59.382% */
 }
 .eat p {
   color: var(--surface-surface-invert, #2A2A2A);
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px; /* 150% */
+  line-height: 24px;
+  /* 150% */
 }
 .eat .leave-ipsum {
   display: flex;
   gap: 69px;
+  align-items: center;
+  text-align: center;
 }
 .eat .leave-ipsum img {
   margin-top: 50px;

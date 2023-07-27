@@ -1,9 +1,9 @@
 @media (max-width: 480px) {
   .container {
     max-width: 480px;
-   }
+  }
 
-   .pics{
+  .pics {
     max-width: 356px;
     flex-wrap: wrap;
     gap: 30px;
@@ -14,19 +14,19 @@
     margin-left: 50px;
   }
 
-  .container > a {
+  .container>a {
     margin-left: 50px;
   }
 
-  .container > h1 {
-font-size: 37.9px;
-line-height: 47px;
+  .container>h1 {
+    font-size: 37.9px;
+    line-height: 47px;
   }
 
   .well-doing {
     width: 360px;
     height: 654px;
-  padding: 64px 60px;
+    padding: 64px 60px;
 
   }
 
@@ -34,7 +34,7 @@ line-height: 47px;
     text-align: center;
     font-size: 39.7px;
     line-height: 53px;
-  margin-top: 0px;
+    margin-top: 0px;
   }
 
   .folboks {
@@ -44,7 +44,7 @@ line-height: 47px;
   }
 
   .fresh {
-   flex-wrap: wrap;
+    flex-wrap: wrap;
   }
 
   .fresh-box h2 {
@@ -53,9 +53,16 @@ line-height: 47px;
     line-height: 49px;
     text-align: center;
 
-      }
+  }
 
-      .eat .leave-ipsum {
-        flex-wrap: wrap;
-      }
+  .eat {
+    max-height: 577px;
+  }
+
+  .eat .leave-ipsum {
+    flex-wrap: wrap;
+    gap: 0px;
+  }
+
+
 }

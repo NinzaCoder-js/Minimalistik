@@ -42,4 +42,18 @@ line-height: 47px;
     gap: 26px;
     align-items: center;
   }
+
+  .fresh {
+   flex-wrap: wrap;
+  }
+
+  .fresh-box h2 {
+    font-size: 39.7px;
+    font-weight: 600;
+    line-height: 49px;
+    text-align: center;
+
+      }
+
+
 }

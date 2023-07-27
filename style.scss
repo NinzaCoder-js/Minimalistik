@@ -10,7 +10,7 @@
   align-items: center;
   margin-top: 32px;
   margin-left: 88px;
-  gap: 800px;
+  gap: 700px;
 }
 
 .navbar-nav {
@@ -20,7 +20,7 @@
 // header started
 
 .container{
-  max-width: 1440px;
+  max-width: 1300px;
   margin: 0 auto;
 }
 
@@ -62,7 +62,7 @@ line-height: 24px; /* 112.518% */
 .pics {
   margin-top: 72px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 // well section started
@@ -74,9 +74,10 @@ line-height: 24px; /* 112.518% */
 background: var(--text-text-invert, #F4F4F4);
 margin-top: 70px;
 padding: 0px 112px;
+// margin-left: 60px;
 display: flex;
   gap: 191px;
-  margin-left: 20px;
+
 }
 
 .well-txt h2 {
@@ -108,8 +109,20 @@ margin-top: 80px;
 .fresh {
   margin-top: 70px;
   display: flex;
+  // margin-left: 60px;
   gap: 53px;
   align-items: center;
+}
+
+.fresh-img {
+  background-image: url("./images/hend.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 623.5px;
+  height: 578px;
+  border-radius: 12px;
+
 }
 
 .flow {
@@ -119,18 +132,65 @@ margin-top: 80px;
   align-items: center;
 }
 
-.fresh-box h2 {
-  color: var(--text-text-secondary, #2B2B2B);
+.fresh-box {
+
+  max-width: 623.5px;
+  max-height: 474px;
+
+  h2 {
+    color: var(--text-text-secondary, #2B2B2B);
+    font-size: 50.52px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 62px; /* 122.724% */
+  }
+
+  p {
+    color: var(--text-text-secondary, #2B2B2B);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  }
+}
+
+// section eat started
+
+.eat {
+  margin-top: 80px;
+  max-width: 100%;
+  max-height: 541px;
+  border-radius: 12px;
+  background: var(--text-text-invert, #F4F4F4);
+  padding: 56px 114px;
+  display: flex;
+  gap: 82px;
+  align-items: center;
+
+  h2 {
+    color: var(--text-text-secondary, #2B2B2B);
 font-size: 50.52px;
 font-style: normal;
 font-weight: 600;
-line-height: 62px; /* 122.724% */
-}
+line-height: 30px; /* 59.382% */
+  }
 
-.fresh-box p {
-  color: var(--text-text-secondary, #2B2B2B);
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 24px; /* 150% */
+  p {
+    color: var(--surface-surface-invert, #2A2A2A);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+  }
+
+ .leave-ipsum {
+  display: flex;
+  gap: 69px;
+ }
+
+ .leave-ipsum img {
+   margin-top: 50px;
+   margin-bottom: 20px;
+ }
+
 }

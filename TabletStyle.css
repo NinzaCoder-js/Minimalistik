@@ -25,7 +25,6 @@
     width: 884px;
     height: 480.5px;
   padding: 64px 112px;
-
   }
 
   .yogaa  {
@@ -36,11 +35,40 @@
     margin-left: 80px;
   }
 
+  .fresh {
+    margin-left: 0px;
+  }
+
+  .well-doing {
+  margin-left: 0px;
+  }
+
   .fresh-img {
     width: 429.5px;
-height: 578px;
-flex-shrink: 0;
+    height: 578px;
   }
+
+  .fresh-box {
+
+    max-width: 429.5px;
+    max-height: 574px;
+  }
+
+
+  .eat {
+    max-width: 884px;
+  }
+
+  .eat-pic {
+    display: none;
+  }
+
+  .leavv {
+    margin-left: 70px;
+  }
+
+
+
 
 
 }

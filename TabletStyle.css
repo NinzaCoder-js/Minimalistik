@@ -3,16 +3,23 @@
     max-width: 960px;
   }
 
-  .pics img {
-    max-width: 427px;
-    max-height: 391px;
+  .pic1 {
+    width: 427px;
+    height: 391px;
+    border-radius: 16px;
+  }
+
+  .pic2 {
+    width: 427px;
+    height: 391px;
+    border-radius: 16px;
   }
 
   .navbarr {
     gap: 500px;
   }
 
-  .container>a {
+  .container > a {
     margin-left: 300px;
   }
 
@@ -50,11 +57,9 @@
   }
 
   .fresh-box {
-
     max-width: 429.5px;
     max-height: 574px;
   }
-
 
   .eat {
     max-width: 884px;
@@ -65,12 +70,6 @@
   }
 
   .leavv {
-    margin-left: 70px;
     padding: 0px 0px;
   }
-
-
-
-
-
 }

@@ -7,6 +7,17 @@
     max-width: 356px;
     flex-wrap: wrap;
     gap: 30px;
+    margin-left: 15px;
+  }
+
+  .pic1 {
+    width: 356px;
+    height: 391px;
+  }
+
+  .pic2 {
+    width: 356px;
+    height: 391px;
   }
 
   .navbarr {
@@ -14,11 +25,11 @@
     margin-left: 50px;
   }
 
-  .container>a {
+  .container > a {
     margin-left: 50px;
   }
 
-  .container>h1 {
+  .container > h1 {
     font-size: 37.9px;
     line-height: 47px;
   }
@@ -27,7 +38,6 @@
     width: 360px;
     height: 654px;
     padding: 64px 60px;
-
   }
 
   .well-txt h2 {
@@ -52,11 +62,11 @@
     font-weight: 600;
     line-height: 49px;
     text-align: center;
-
   }
 
   .eat {
     max-height: 577px;
+    padding: 64px 30px;
   }
 
   .eat .leave-ipsum {
@@ -64,5 +74,11 @@
     gap: 0px;
   }
 
-
+  .eat h2 {
+    width: 362px;
+    height: 94px;
+    text-align: center;
+    font-size: 39.7px;
+    line-height: 47px; /* 118.388% */
+  }
 }
